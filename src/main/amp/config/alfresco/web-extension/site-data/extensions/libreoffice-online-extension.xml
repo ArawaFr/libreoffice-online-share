@@ -103,7 +103,6 @@
                                <permission allow="true">Write</permission>
                             </permissions>
                             <evaluator>evaluator.doclib.action.offlineEdit</evaluator>
-                            <evaluator>evaluator.doclib.action.hasContent</evaluator>
                             <evaluator negate="true">evaluator.doclib.action.notEditable</evaluator>
                             <evaluator negate="true">evaluator.doclib.indicator.loolEditing</evaluator>
                          </action>
